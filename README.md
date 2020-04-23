@@ -25,6 +25,13 @@ Java版的Promise，纯属娱乐，请勿使用到任何正式环境（建议使
     <url>https://maven.pkg.github.com/jiangtj-lab/jpromise</url>
   </repository>
 </repositories>
+<servers>
+  <server>
+    <id>jiangtj-github</id>
+    <username>your name</username>
+    <password>token(maybe only read)</password>
+  </server>
+</servers>
 ```
 
 接下来就可以愉快的使用JPromise啦

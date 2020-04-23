@@ -60,3 +60,5 @@ class PromiseTest {
     }
 }
 ```
+
+由于Java强类型的限制，在PromiseV2中尝试都使用String...

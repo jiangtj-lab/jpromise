@@ -15,6 +15,18 @@ Java版的Promise，纯属娱乐，请勿使用到任何正式环境（建议使
 </dependency>
 ```
 
+需要添加repository以及授权凭证，见 [github-packages文档](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages#authenticating-to-github-packages)
+
+```xml
+<repositories>
+  <repository>
+    <id>jiangtj-github</id>
+    <name>jiangtj's github maven packages</name>
+    <url>https://maven.pkg.github.com/jiangtj-lab/jpromise</url>
+  </repository>
+</repositories>
+```
+
 接下来就可以愉快的使用JPromise啦
 
 ```java

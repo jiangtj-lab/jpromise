@@ -5,7 +5,7 @@ Java版的Promise，纯属娱乐，请勿使用到任何正式环境（建议使
 
 ## How to use
 
-通过maven安装, ${latest-version} 请到packages页面查看
+通过maven安装, ${latest-version} 请到 [packages](https://github.com/jiangtj-lab/jpromise/packages) 页面查看
 
 ```xml
 <dependency>
